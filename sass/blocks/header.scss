@@ -70,6 +70,7 @@
   position: absolute;
   left: 12.9%;
   bottom: 36.5%;
+  margin: 0;
 
   @media (min-width: 1500px) {
     @include dynamicText(81.25%, 26, 13, 1500px, 3000, 1500);
@@ -84,6 +85,7 @@
   position: absolute;
   left: 29.5%;
   bottom: 19.5%;
+  margin: 0;
   @media (min-width: 1500px) {
     @include dynamicText(81.25%, 26, 13, 1500px, 3000, 1500);
   }
