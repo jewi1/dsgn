@@ -5,6 +5,7 @@ $bg-p-five: #576b76;
 $bg-p-six: #eaeaea;
 $bg-p-eight: #fcfcfc;
 $bg-p-nine: #cecece;
+$prj-color-name: #333333;
 
 .projects {
   display: grid;
@@ -95,4 +96,65 @@ $bg-p-nine: #cecece;
   grid-row: span 1;
 
   background-color: $bg-p-one;
+}
+
+.projects__name {
+  font-size: 24px;
+  font-family: "roboto_condensedlight";
+  color: $prj-color-name;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+.projects__description {
+  font-size: 12px;
+  font-family: "roboto_condensedlight";
+  color: $prj-color-name;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
+
+  b {
+    font-family: "roboto_condensedbold";
+    font-weight: normal;
+  }
+}
+
+.projects__view {
+  font-size: 18px;
+  font-family: "roboto_condensedlight";
+  color: $prj-color-name;
+  text-transform: uppercase;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  background: url("/img/arrow-view.svg") left center no-repeat;
+
+  padding-left: 25px;
+  padding-right: 25px;
+
+  span {
+    border-bottom: 1px solid transparent;
+    transition-property: border-color;
+    transition-duration: 500ms;
+    &:hover,
+    &:active {
+      border-color: $prj-color-name;
+    }
+  }
+}
+
+.projects__like {
+  max-width: 145px;
+  text-align: center;
+}
+
+.projects__title {
+  font-size: 48px;
+  color: $white;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: normal;
 }
