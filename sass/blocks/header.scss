@@ -49,16 +49,9 @@
   background-color: $second;
   position: relative;
   padding-top: 10.7%;
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-image: url('data:image/svg+xml;utf8, 
+
+  background-image: url('data:image/svg+xml;utf8, 
     <svg xmlns="http://www.w3.org/2000/svg" width="100%" heigth="100%"><line x1="0" y1="100%" x2="100%" y2="0" stroke="rgb(255,255,255)" stroke-width="1"/></svg>');
-  }
 }
 
 .header__address {

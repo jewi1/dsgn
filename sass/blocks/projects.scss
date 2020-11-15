@@ -17,6 +17,30 @@ $prj-color-name: #333333;
   grid-row: span 2;
 
   background-color: $bg-p-one;
+
+  position: relative;
+
+  background-image: url('data:image/svg+xml;utf8, 
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" heigth="100%"><line x1="0" y1="100%" x2="100%" y2="0" stroke="rgb(255,255,255)" stroke-width="1"/></svg>');
+
+  .projects__links {
+    margin-top: 36.5%;
+    margin-left: calc(27.9% - 25px);
+    margin-bottom: 12.9%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .projects__title {
+    font-size: 48px;
+    color: $white;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: normal;
+    margin-top: 12.9%;
+    margin-left: 46.2%;
+    margin-bottom: 34.4%;
+  }
 }
 
 .projects__element--two {
@@ -26,6 +50,17 @@ $prj-color-name: #333333;
   background: url("/img/image2.png") right top no-repeat;
   background-size: cover;
   background-color: $white;
+
+  .projects__info {
+    margin-left: 17.5%;
+    margin-top: 15.7%;
+  }
+
+  .projects__counter {
+    margin-left: 19.2%;
+    margin-top: 11.4%;
+    margin-bottom: 12.2%;
+  }
 }
 
 .projects__element--three {
@@ -35,6 +70,25 @@ $prj-color-name: #333333;
   background: url("/img/image3.png") left center no-repeat;
   background-size: cover;
   background-color: $bg-p-three;
+
+  .projects__like {
+    margin-top: 5.8%;
+  }
+
+  .projects__description {
+    max-width: 39%;
+  }
+
+  .projects__info {
+    margin-left: 8.6%;
+    margin-top: 7.5%;
+  }
+
+  .projects__counter {
+    margin-top: 4.7%;
+    margin-left: 8.6%;
+    margin-bottom: 4%;
+  }
 }
 
 .projects__element--four {
@@ -42,8 +96,29 @@ $prj-color-name: #333333;
   grid-row: span 2;
 
   background: url("/img/image4.png") center top no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-color: $bg-p-four;
+
+  padding-top: 72%;
+  display: flex;
+
+  .projects__counter {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-right: 3%;
+    margin-bottom: 3%;
+  }
+
+  .projects__like {
+    margin-top: 0;
+  }
+
+  .projects__info {
+    margin-left: 12.9%;
+    margin-right: 4.3%;
+    margin-bottom: 7.5%;
+  }
 }
 
 .projects__element--five {
@@ -53,6 +128,43 @@ $prj-color-name: #333333;
   background: url("/img/image5.png") center top no-repeat;
   background-size: cover;
   background-color: $bg-p-five;
+
+  .projects__view {
+    color: $white;
+    span {
+      &:hover {
+        border-color: $white;
+      }
+    }
+  }
+
+  .projects__description,
+  .projects__name {
+    color: $white;
+  }
+
+  .like__btn {
+    fill: $white;
+  }
+
+  .like__counts {
+    color: #fe7c7c;
+  }
+
+  .projects__like {
+    margin-top: 9.2%;
+  }
+
+  .projects__info {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 12.9%;
+  }
+
+  .projects__counter {
+    margin-left: 10%;
+    margin-bottom: 70%;
+  }
 }
 
 .projects__element--six {
@@ -62,6 +174,24 @@ $prj-color-name: #333333;
   background: url("/img/image6.png") center top no-repeat;
   background-size: cover;
   background-color: $bg-p-six;
+
+  display: flex;
+
+  .projects__info {
+    margin-left: 48.1%;
+    margin-top: 12.1%;
+    margin-bottom: 4%;
+  }
+
+  .projects__counter {
+    margin-left: 4%;
+    margin-top: 12.1%;
+    margin-bottom: 4%;
+  }
+
+  .projects__like {
+    margin-top: 5%;
+  }
 }
 
 .projects__element--seven {
@@ -71,6 +201,21 @@ $prj-color-name: #333333;
   background: url("/img/image7.png") left top no-repeat;
   background-size: cover;
   background-color: $white;
+
+  .projects__info {
+    margin-left: 52.6%;
+    margin-top: 10.7%;
+  }
+
+  .projects__counter {
+    margin-left: 52.6%;
+    margin-top: 5%;
+  }
+
+  .projects__like {
+    margin-top: 9.1%;
+    margin-bottom: 5.3%;
+  }
 }
 
 .projects__element--eight {
@@ -80,6 +225,29 @@ $prj-color-name: #333333;
   background: url("/img/image8.png") left top no-repeat;
   background-size: cover;
   background-color: $bg-p-eight;
+
+  display: flex;
+
+  padding-top: 27.2%;
+
+  .projects__counter {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 6.1%;
+    margin-bottom: 2.7%;
+    align-items: flex-start;
+    flex-basis: 210px;
+    justify-content: space-between;
+  }
+
+  .projects__info {
+    margin-left: 20.4%;
+    margin-bottom: 2.7%;
+  }
+
+  .projects__like {
+    margin-top: 0;
+  }
 }
 
 .projects__element--nine {
@@ -89,6 +257,21 @@ $prj-color-name: #333333;
   background: url("/img/image9.png") right top no-repeat;
   background-size: cover;
   background-color: $bg-p-nine;
+
+  .projects__info {
+    margin-left: 50%;
+    margin-top: 25%;
+    margin-bottom: 8.3%;
+  }
+
+  .projects__like {
+    margin-top: 14.7%;
+  }
+
+  .projects__counter {
+    margin-left: 40%;
+    margin-bottom: 11.6%;
+  }
 }
 
 .projects__element--ten {
@@ -96,6 +279,25 @@ $prj-color-name: #333333;
   grid-row: span 1;
 
   background-color: $bg-p-one;
+
+  background-image: url('data:image/svg+xml;utf8, 
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" heigth="100%"><line x1="0" y1="100%" x2="65%" y2="0" stroke="rgb(255,255,255)" stroke-width="1"/></svg>');
+
+  .projects__subtitle {
+    font-size: 14px;
+    color: $color-text;
+    text-transform: uppercase;
+    line-height: 1;
+
+    margin-bottom: 0;
+    margin-left: 21.5%;
+    margin-top: 11.8%;
+  }
+
+  .projects__links {
+    margin-left: calc(21.5% - 25px);
+    margin-bottom: 32.2%;
+  }
 }
 
 .projects__name {
@@ -149,12 +351,9 @@ $prj-color-name: #333333;
 .projects__like {
   max-width: 145px;
   text-align: center;
+  margin-top: 22.4%;
 }
 
-.projects__title {
-  font-size: 48px;
-  color: $white;
-  text-transform: uppercase;
-  line-height: 1;
-  font-weight: normal;
+.projects__description--lower {
+  text-transform: none;
 }
