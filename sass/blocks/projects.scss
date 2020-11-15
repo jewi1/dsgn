@@ -1,0 +1,98 @@
+$bg-p-one: #ebb240;
+$bg-p-three: #dfe0d9;
+$bg-p-four: #f7f7f3;
+$bg-p-five: #576b76;
+$bg-p-six: #eaeaea;
+$bg-p-eight: #fcfcfc;
+$bg-p-nine: #cecece;
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.projects__element--one {
+  grid-column: span 5;
+  grid-row: span 2;
+
+  background-color: $bg-p-one;
+}
+
+.projects__element--two {
+  grid-column: span 6;
+  grid-row: span 2;
+
+  background: url("/img/image2.png") right top no-repeat;
+  background-size: cover;
+  background-color: $white;
+}
+
+.projects__element--three {
+  grid-column: span 5;
+  grid-row: span 1;
+
+  background: url("/img/image3.png") left center no-repeat;
+  background-size: cover;
+  background-color: $bg-p-three;
+}
+
+.projects__element--four {
+  grid-column: span 5;
+  grid-row: span 2;
+
+  background: url("/img/image4.png") center top no-repeat;
+  background-size: cover;
+  background-color: $bg-p-four;
+}
+
+.projects__element--five {
+  grid-column: span 3;
+  grid-row: span 2;
+
+  background: url("/img/image5.png") center top no-repeat;
+  background-size: cover;
+  background-color: $bg-p-five;
+}
+
+.projects__element--six {
+  grid-column: span 8;
+  grid-row: span 2;
+
+  background: url("/img/image6.png") center top no-repeat;
+  background-size: cover;
+  background-color: $bg-p-six;
+}
+
+.projects__element--seven {
+  grid-column: span 5;
+  grid-row: span 1;
+
+  background: url("/img/image7.png") left top no-repeat;
+  background-size: cover;
+  background-color: $white;
+}
+
+.projects__element--eight {
+  grid-column: span 8;
+  grid-row: span 1;
+
+  background: url("/img/image8.png") left top no-repeat;
+  background-size: cover;
+  background-color: $bg-p-eight;
+}
+
+.projects__element--nine {
+  grid-column: span 3;
+  grid-row: span 1;
+
+  background: url("/img/image9.png") right top no-repeat;
+  background-size: cover;
+  background-color: $bg-p-nine;
+}
+
+.projects__element--ten {
+  grid-column: span 5;
+  grid-row: span 1;
+
+  background-color: $bg-p-one;
+}
