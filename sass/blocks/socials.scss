@@ -1,3 +1,5 @@
+$color-mini: #fd5000;
+
 .socials {
   list-style: none;
   padding: 0;
@@ -12,7 +14,6 @@
   &:last-child {
     margin-right: 0;
   }
-
 }
 
 .socials__facebook {
@@ -37,4 +38,28 @@
   width: 19px;
   height: 19px;
   fill: $second;
+}
+
+.socials__facebook-mini {
+  width: 6px;
+  height: 13px;
+  fill: $color-mini;
+}
+
+.socials__twitter-mini {
+  width: 13px;
+  height: 10px;
+  fill: $color-mini;
+}
+
+.socials__linkedin-mini {
+  width: 13px;
+  height: 12px;
+  fill: $color-mini;
+}
+
+.socials__google-mini {
+  width: 14px;
+  height: 13px;
+  fill: $color-mini;
 }
