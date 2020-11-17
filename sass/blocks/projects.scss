@@ -51,7 +51,7 @@ $prj-color-name: #333333;
   grid-column: span 6;
   grid-row: span 2;
 
-  background: url("/img/image2.png") right top no-repeat;
+  background: url("../img/image2.png") right top no-repeat;
   background-size: cover;
   background-color: $white;
 
@@ -67,7 +67,7 @@ $prj-color-name: #333333;
   }
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url("/img/image2-2x.png");
+    background-image: url("../img/image2-2x.png");
   }
 }
 
@@ -75,7 +75,7 @@ $prj-color-name: #333333;
   grid-column: span 5;
   grid-row: span 1;
 
-  background: url("/img/image3.png") left center no-repeat;
+  background: url("../img/image3.png") left center no-repeat;
   background-size: cover;
   background-color: $bg-p-three;
 
@@ -99,7 +99,7 @@ $prj-color-name: #333333;
   }
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url("/img/image3-2x.png");
+    background-image: url("../img/image3-2x.png");
   }
 }
 
@@ -107,7 +107,7 @@ $prj-color-name: #333333;
   grid-column: span 5;
   grid-row: span 2;
 
-  background: url("/img/image4.png") center top no-repeat;
+  background: url("../img/image4.png") center top no-repeat;
   background-size: 100%;
   background-color: $bg-p-four;
 
@@ -133,7 +133,7 @@ $prj-color-name: #333333;
   }
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url("/img/image4-2x.png");
+    background-image: url("../img/image4-2x.png");
   }
 }
 
@@ -141,7 +141,7 @@ $prj-color-name: #333333;
   grid-column: span 3;
   grid-row: span 2;
 
-  background: url("/img/image5.png") center top no-repeat;
+  background: url("../img/image5.png") center top no-repeat;
   background-size: cover;
   background-color: $bg-p-five;
 
@@ -183,7 +183,7 @@ $prj-color-name: #333333;
   }
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url("/img/image5-2x.png");
+    background-image: url("../img/image5-2x.png");
   }
 }
 
@@ -191,7 +191,7 @@ $prj-color-name: #333333;
   grid-column: span 8;
   grid-row: span 2;
 
-  background: url("/img/image6.png") center top no-repeat;
+  background: url("../img/image6.png") center top no-repeat;
   background-size: cover;
   background-color: $bg-p-six;
 
@@ -214,7 +214,7 @@ $prj-color-name: #333333;
   }
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url("/img/image6-2x.png");
+    background-image: url("../img/image6-2x.png");
   }
 }
 
@@ -222,7 +222,7 @@ $prj-color-name: #333333;
   grid-column: span 5;
   grid-row: span 1;
 
-  background: url("/img/image7.png") left top no-repeat;
+  background: url("../img/image7.png") left top no-repeat;
   background-size: 100%;
   background-color: $white;
 
@@ -242,7 +242,7 @@ $prj-color-name: #333333;
   }
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url("/img/image7-2x.png");
+    background-image: url("../img/image7-2x.png");
   }
 }
 
@@ -250,7 +250,7 @@ $prj-color-name: #333333;
   grid-column: span 8;
   grid-row: span 1;
 
-  background: url("/img/image8.png") left top no-repeat;
+  background: url("../img/image8.png") left top no-repeat;
   background-size: cover;
   background-color: $bg-p-eight;
 
@@ -278,7 +278,7 @@ $prj-color-name: #333333;
   }
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url("/img/image8-2x.png");
+    background-image: url("../img/image8-2x.png");
   }
 }
 
@@ -286,7 +286,7 @@ $prj-color-name: #333333;
   grid-column: span 3;
   grid-row: span 1;
 
-  background: url("/img/image9.png") right top no-repeat;
+  background: url("../img/image9.png") right top no-repeat;
   background-size: cover;
   background-color: $bg-p-nine;
 
@@ -306,7 +306,7 @@ $prj-color-name: #333333;
   }
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url("/img/image9-2x.png");
+    background-image: url("../img/image9-2x.png");
   }
 }
 
@@ -380,7 +380,7 @@ $prj-color-name: #333333;
   line-height: 1;
   text-decoration: none;
   display: inline-block;
-  background: url("/img/arrow-view.svg") left center no-repeat;
+  background: url("../img/arrow-view.svg") left center no-repeat;
 
   padding-left: 25px;
   padding-right: 25px;
